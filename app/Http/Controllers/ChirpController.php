@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Chirp;
+use App\Listeners\SendChirpCreatedNotifications;
 use Illuminate\Http\Request;
 
 class ChirpController extends Controller
